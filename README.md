@@ -6,10 +6,10 @@
 A Library build with a propose, single line console print across project to avoid unnecessary console prints.
 The Library has the capability to handle all print statements in one line across the project.
 
-When there are multiple for loops iterating over a list of task and those task,
-again run have sub task which again have to be looped over, Therefore knowing their status of each loop during execution
-is essential, or knowing where the code has reached for that matter, keeping all that in mind the library is design,
-to just display a sequence of execution in one line console print, so user is aware  about the progress.
+When there are several tasks to be looped, which also have their own sub task,
+and these sub task have to be looped over, Therefore, knowing the status of each loop, during execution
+is essential, or, knowing where the code has reached for that matter, keeping all that in mind, the library is design
+to just display the sequence of execution in one-line console print, so user is aware about the progress.
 
 ![demo4](https://user-images.githubusercontent.com/24665570/96991506-29e99500-1546-11eb-8180-195bb5334c8b.gif)
 
@@ -42,7 +42,7 @@ from py_oneliner import one_liner
 Stages = ["Start", "Middle", "End"]
 
 for s in Stages:
-    one_liner.one_line(tag="TEST", tag_data="TESTING PRINT", to_reset_data=True)
+    one_liner.one_line(tag=s, tag_data=s, to_reset_data=True)
 
     for i, j1 in enumerate(2 * [1]):
         one_liner.one_line("first_loop", f"{i + 1}/{2}")
@@ -67,7 +67,7 @@ from py_oneliner import one_liner
 Stages = ["Start", "Middle", "End"]
 
 for s in Stages:
-    one_liner.one_line(tag="TEST", tag_data="TESTING PRINT", to_reset_data=True)
+    one_liner.one_line(tag=s, tag_data=s, to_reset_data=True)
 
     for i, j1 in enumerate(2 * [1]):
         one_liner.one_line("first_loop", f"{i + 1}/{2}", tag_color="red", tag_data_color="green")

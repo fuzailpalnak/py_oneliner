@@ -2,6 +2,7 @@
 ![Licence](https://img.shields.io/github/license/fuzailpalnak/py_oneliner)
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Downloads](https://pepy.tech/badge/py-oneliner)
 
 A Library build with a propose, single line console print across project to avoid unnecessary console prints.
 The Library has the capability to handle all print statements in one line across the project.

@@ -12,6 +12,9 @@ and these sub task have to be looped over, Therefore, knowing the status of each
 is essential, or, knowing where the code has reached for that matter, keeping all that in mind, the library is design
 to just display the sequence of execution in one-line console print, so user is aware about the progress.
 
+
+<a href='https://ko-fi.com/fuzailpalnak' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ![demo4](https://user-images.githubusercontent.com/24665570/96991506-29e99500-1546-11eb-8180-195bb5334c8b.gif)
 
 ## Installation
